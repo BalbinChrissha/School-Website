@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.heading {
+    height: 500px;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-bar {
+    height: 100px;
+    background: #8E1537;
+
+}
+
+.nav-bar img {
+    width: 300px;
+    padding: 15px 0 0 20px;
+}
+
+
+.nav-bar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 85px;
+    margin: 0 5px;
+
+}
+
+.nav-bar ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.nav-bar ul li a:hover {
+    background: #9C2245;
+    transition: .5s;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+.oblation1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(image/about9.png);
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica;
+    color: #ffffff;
+    font-size: 60px;
+    -webkit-text-stroke: 2px #00563F;
+    text-shadow: 2px 2px #FFB71C;
+    padding-top: 130px;
+    overflow: hidden;
+}
+
+
+.contact1 {
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 10%;
+    font-family: Helvetica;
+    color: #000000;
+}
+
+.contact1 h3 {
+    font-size: 21px;
+}
+
+.contact1 td p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.contact1 td p a {
+    color: #000000;
+}
+
+.contact1 td p a :hover {
+    color: #CEAD00;
+}
+
+.upcat1 {
+    width: 500px;
+    height: 280px;
+    margin-left: 15px;
+    background-image: url(image/upcat1.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    float: right;
+    transition: none;
+}
+
+
+.upcat2 {
+    width: 509px;
+    height: 338px;
+    margin-left: 15px;
+    background-image: url(image/upcat2.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    float: right;
+    transition: none;
+}
+
+
+.contact1 ol {
+    padding-left: 30px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.contact1 ol a {
+    color: #000000;
+}
+
+
+.contact1 ol a:hover {
+    color: #CEAD00;
+}
+
+.contact1 ul {
+    padding-left: 30px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+
+
+
+@media screen and (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-bar ul {
+        position: fixed;
+        width: 50%;
+        height: 320px;
+        background: #8E1537;
+        top: 80px;
+        top: -100%;
+        right: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .nav-bar ul li {
+        display: block;
+        margin: 35px 0;
+        line-height: 30px;
+    }
+
+    .nav-bar ul li a {
+        font-size: 25px;
+    }
+
+    .nav-bar ul li a:hover {
+        background: none;
+        font-size: 27px;
+        color: #00563F;
+        -webkit-text-stroke: .3px #FFB71C;
+        text-shadow: 2px 2px #FFB71C;
+    }
+
+    #check:checked~ul {
+        top: 0;
+        right: 0;
+    }
+
+    .oblation1 {
+        font-size: 50px;
+    }
+
+
+}
+
+.fin a {
+    color: #8E1537;
+}
+
+.fin {
+    color: #8E1537;
+}
+
+.fin a:hover {
+    color: #CEAD00;
+}
+
+/********************FOOTER**********************/
+
+.last1 a :hover {
+    color: #CEAD00;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(124, 38, 38, 0.7), rgba(124, 38, 38, 0.7)), url(image/bgpic2.png);
+    background-position: center;
+    background-size: cover;
+    /*  position: relative;*/
+    font-family: Helvetica;
+    color: #ffffff;
+    overflow: hidden;
+
+}
+
+
+.last1 a {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+
+.last1 {
+    width: 50%;
+    height: 300px;
+    padding: 30px 20px 0px 0px;
+    float: left;
+    text-align: right;
+    transition: none;
+    line-height: 25px;
+
+}
+
+.last1 p {
+    font-size: 15px;
+}
+
+.last2 {
+    width: 50%;
+    height: 100px;
+    padding: 30px 0px 0px 20px;
+    float: left;
+    transition: none;
+    text-align: left;
+}
+
+.last2 img {
+    height: 80px;
+}
+
+@media screen and (max-width: 1175px) {
+    .oblation1 {
+        font-size: 50px;
+    }
+
+    .contact1 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1046px) {
+
+    .last1 {
+        width: 100%;
+    }
+
+    .last2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer {
+        height: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px) {
+    .last1 {
+        width: 100%;
+    }
+
+    .last2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer {
+        height: 400px;
+    }
+
+    .oblation1 {
+        font-size: 50px;
+    }
+
+    .contact1 {
+        margin-top: 50px;
+
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .contact1 {
+        margin-top: 5px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        height: 400px;
+    }
+
+    .oblation1 {
+        font-size: 45px;
+    }
+
+    .contact1 {
+        margin-top: 10px;
+    }
+
+    .contact1 ul {
+        font-size: 15.3;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table1 {
+        text-align: center;
+    }
+
+    .contact1 ul {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .contact1 ol {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .table1 {
+        font-size: 15px;
+    }
+
+
+    .contact1 h3 {
+        font-size: 20px;
+    }
+
+    .contact1 td p {
+        font-size: 15px;
+    }
+
+    .upcat1 {
+        width: 500px;
+        height: 280px;
+        margin: 15px 45px 30px 45px;
+        float: left;
+
+    }
+
+
+    .upcat2 {
+        width: 509px;
+        height: 338px;
+        margin: 15px 20px 20px 40px;
+        float: left;
+    }
+
+
+}
+
+@media screen and (max-width: 740px) {
+
+    .upcat1 {
+        object-fit: fill;
+        height: 280px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .upcat2 {
+        object-fit: fill;
+        height: 338px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact1 {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .upcat1 {
+        object-fit: cover;
+        height: 250px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .upcat2 {
+        object-fit: fill;
+        height: 315px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 566px) {
+    .last2 img {
+        height: 60px;
+
+    }
+
+    .oblation1 {
+        font-size: 40px;
+    }
+
+    .contact1 {
+        margin-top: 20px;
+
+    }
+
+    .upcat1 {
+        object-fit: fill;
+        height: 220px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .upcat2 {
+        object-fit: fill;
+        height: 240px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .contact1 {
+        margin-top: 10px;
+    }
+
+    .upcat1 {
+        object-fit: fill;
+        height: 200px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .upcat2 {
+        object-fit: fill;
+        height: 210px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/*********************FOR PHONE**********************/
+
+@media screen and (max-width: 400px) {
+    .heading {
+        height: 485px;
+    }
+
+    .nav-bar img {
+        width: 200px;
+    }
+
+    .checkbtn {
+        font-size: 20px;
+    }
+
+    .nav-bar ul {
+        height: 270px;
+    }
+
+
+    .nav-bar ul li a {
+        font-size: 15px;
+    }
+
+    .nav-bar ul li a:hover {
+        background: none;
+        font-size: 20px;
+        color: #00563F;
+        -webkit-text-stroke: .3px #FFB71C;
+        text-shadow: 2px 2px #FFB71C;
+    }
+
+    .last2 img {
+        height: 45px;
+    }
+
+    .upcat1 {
+        object-fit: fill;
+        height: 180px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .upcat2 {
+        object-fit: fill;
+        height: 190px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .heading {
+        height: 485px;
+    }
+
+    .nav-bar {
+        height: 80px;
+    }
+
+    .oblation1 {
+        font-size: 30px;
+        padding-top: 130px;
+
+    }
+
+    .contact1 ul {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact1 ol {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact1 h3 {
+        font-size: 19px;
+    }
+
+    .contact1 td p {
+        font-size: 14px;
+    }
+
+
+
+}

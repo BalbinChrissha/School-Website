@@ -1,0 +1,867 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.heading{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(rgba(67, 62, 62, 0.7),rgba(67, 62, 62, 0.7)), url(image/bgpic1.jpg);
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    overflow: hidden;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav img{
+    width: 300px;
+    padding: 15px 0 0 20px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px; 
+    padding: 7px 13px;
+    border-radius: 3px;  
+}
+
+ nav ul li a:hover{ 
+    background: #9C2245;
+    transition: .5s;
+    
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none; 
+}
+
+@media screen and (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+
+
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 320px; 
+        background: #8E1537;
+        top:80px;
+        top: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 35px 0;
+        line-height: 30px;
+    }
+
+
+
+    nav ul li a{
+        font-size: 25px ;
+    }
+
+    nav ul li a:hover{
+        background: none;
+        font-size: 27px; 
+        color: #00563F;
+        -webkit-text-stroke: .3px #FFB71C;
+        text-shadow: 2px 2px #FFB71C;
+    }
+
+    #check:checked ~ ul{
+        top: 0;
+        right: 0;
+    }
+
+    .univ1 p{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+   
+
+}
+
+
+.last1 a :hover{
+    color: #CEAD00;
+}
+
+/**Quick Links second section*/
+.container1{
+    background-color: #8E1537;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    
+}
+
+.link1{
+    background-image: url(image/baybayin.png);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    width: 23%;	
+    height: 150px;			
+    padding: 60px 10px 10px 10px;
+    margin: 0px 2px 0px 2px;
+    float:left;
+    font-family: Georgia;
+    font-size: 27px;  
+    font-weight: 700; 
+    color: #f1f1f1;
+    transition: none;
+}
+
+.btn {
+    border: 2px solid white;
+    font-family: Georgia Pro;
+    font-size: 24px;  
+    font-weight: 700; 
+    background-color: #8E1537;
+    color: black;
+    width: 23%;	
+    height: 70px;			
+    padding: 2px 0px 0px 00px;
+    margin: 40px 5px 0px 20px;
+    float:left;
+    cursor: pointer;
+  }
+  
+  .success {
+    border: 3px solid white;
+    color: white;
+  }
+  
+  .success:hover {
+    background-color: white;
+    color: #8E1537;
+  }
+
+
+
+/*************section of announcement*/  
+.announcement {
+    height: auto;
+    
+}
+
+.announcement h1{
+    margin-left: 35px;
+    font-family: Georgia;
+    font-size: 40px; 
+    overflow: hidden;  
+}
+
+.announcement h1:hover{
+    color: #CEAD00;
+}
+
+.upca h2{
+    font-size: 27px;
+}
+
+.upca td img{
+    width: 100%;
+}
+
+.upca{
+    width: 45%;
+    border: 3px solid white;
+    margin: 5px 10px 10px 40px;
+    float: left;
+    transition: none;
+}
+
+.upca td h2:hover{
+    color:#CEAD00;
+}
+
+
+
+.alumni{
+    width: 23%;
+    border: 3px solid white;
+    margin: 5px 10px 10px 10px;
+    float: left;
+    transition: none;
+    font-family: Helvetica;
+}
+
+.alumni h4{
+    font-size: 17px;
+}
+
+.alumni td img{
+    width: 100%;
+}
+
+.alumni p{
+    margin: 7px 0px 0px 0px;
+    text-align: justify;
+    font-size: 14.5px;
+}
+
+.alumni td h4:hover{
+    color:#CEAD00;
+}
+
+
+.webinar{
+    width: 23%;
+    border: 3px solid white;
+    margin: 5px 10px 10px 10px;
+    float: left;
+    font-family: Helvetica;
+    transition: none;
+}
+
+.webinar h4{
+    font-size: 17px;
+}
+
+.webinar td img{
+    width: 100%;
+}
+
+.webinar p{
+    margin: 7px 0px 0px 0px;
+    text-align: justify;
+    font-size: 14.5px;
+}
+
+
+.webinar td h4:hover{
+    color: #CEAD00;
+}
+
+.news{
+    float: left;
+}
+
+.news h1{
+    margin-left: 35px;
+    font-family: Georgia;
+    font-size: 40px;   
+}
+
+.news h1:hover{
+    color: #CEAD00;
+}
+
+/********new Section Features*********/
+
+.container2{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+
+
+.feature1{
+    width: 49%;	
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(image/building1.png);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    height: 500px;
+    margin: 0 0 0 1%;
+    padding: 80px 140px 0px 140px;
+    float: left;
+    transition: none;
+
+}
+
+.feature1 h2{
+    font-size: 27px;
+}
+
+.feature1 p{
+    margin: 30px 0px 0px 0px;
+    text-align: justify;
+    font-family: Helvetica;
+    line-height: 25px;
+}
+
+.feature1 h2:hover{
+    color: #CEAD00;
+}
+
+.feature2{
+    float: left;
+    width: 49%;	
+    background-image:url(image/oblation.png);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    height: 500px;
+    margin: 0 0 0 0;
+    transition: none;
+
+}
+
+/*******Title feature*****/
+.features h1{
+    margin-left: 35px;
+    font-family: Georgia;
+    font-size: 40px; 
+    overflow: hidden;  
+}
+.features h1:hover{
+    color: #CEAD00;
+}
+
+
+.features{
+    float: left;
+    overflow: hidden; 
+}
+
+.container3{
+    background-color: #8E1537;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.feature3{
+    float: left;
+    width: 50%;	
+    background-image:url(image/oval.png);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    height: 600px;
+    margin: 0 0 0 0;
+    transition: none;
+
+}
+
+.feature4{
+    width: 50%;	
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(image/chairs.png);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    height: 600px;
+    margin: 0 0 0 0;
+    padding: 50px 70px 0px 80px;
+    float: left;
+    transition: none;
+
+}
+
+.feature4 h2{
+    font-size: 27px;
+}
+
+.feature4 p{
+    margin: 20px 0px 0px 0px;
+    text-align: justify;
+    font-family: Helvetica;
+    
+}
+
+
+/********************************************/
+.container4{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.univ1{
+    float: left;
+    width: 49%;	
+    margin: 0 0 0 1%;
+    transition: none;
+    padding: 10px;
+    line-height: 22px;
+    font-family: Helvetica;
+
+}
+
+.univ1 h2{
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+.univ1 p{
+    text-align: justify;
+    font-family: Helvetica;
+}
+
+.univ1 td{
+    font-size: 18px;
+}
+
+.univ2{
+    width: 49%;	
+    height: auto;
+    margin: 0 0 0 0;
+    float: left;
+    overflow: hidden;
+    transition: none;
+}
+
+
+
+
+/********************FOOTER**********************/
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(124, 38, 38, 0.7),rgba(124, 38, 38, 0.7)),url(image/bgpic2.png);
+    background-position: center;
+    background-size: cover ;
+  /*  position: relative;*/
+    font-family: Helvetica;
+    color: #ffffff;
+    overflow: hidden;
+
+}
+
+
+.last1 a{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+
+.last1{
+    width: 50%;
+    height: 300px;
+    padding: 30px 20px 0px 0px;
+    float: left;
+    text-align: right;
+    transition: none;
+    line-height: 25px;
+
+}
+
+.last1 p{
+    font-size: 15px;
+}
+
+.last2{
+    width: 50%;
+    height: 100px;
+    padding: 30px 0px 0px 20px;
+    float: left;
+    transition: none;
+    text-align: left;
+}
+
+.last2 img{
+    height: 80px;
+
+}
+
+/*****SMALL BUTTON*****/
+.btn1 {
+    border: 2px solid #EBEBEB;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 6px 15px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  
+  .success1 {
+    border-color: #EBEBEB;
+    color: rgb(0, 0, 0);
+  }
+  
+  .success1:hover {
+    background-color: #EBEBEB;
+    color: #CEAD00;
+  }
+
+
+
+@media screen and (max-width: 1180px){
+  .container2{
+    height: auto;
+}
+
+.feature1{
+    width: 95%;
+    margin-left: 2%;
+}
+
+.feature2{
+    width: 95%;
+    margin-left: 2%;
+    background-size: cover ;
+}
+}
+
+
+@media screen and (max-width: 1101px){
+    .container3{
+      height: auto;
+  }
+
+   .feature3{
+      width: 100%;
+      background-size: cover ;
+  }
+  .feature4{
+    width: 100%;
+  }
+  
+  }
+  @media screen and (max-width: 1046px){
+
+  .last1{
+    width: 100%;
+}
+.last2{
+    padding: 20px;
+    width: 100%;
+}
+
+.footer{
+    height: 400px;
+}
+
+  }
+
+
+
+  @media screen and (max-width: 1020px){
+
+    .announcement {
+       /* height: 2000px;*/
+       height: auto;
+    }
+    .upca{
+        width: 92%;
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 4%;
+    }
+
+    .alumni{
+        width: 45%;
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 4%;
+    }    
+
+    .webinar{
+        width: 45%;
+        margin: auto;
+        margin: 20px 0px 0px 20px;
+        
+    }
+
+
+    .last1{
+        width: 100%;
+    }
+    .last2{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer{
+        height: 400px;
+    }
+    
+  }
+
+/******RESPONSIVE QUICK LINKS********/
+
+@media screen and (max-width: 999px){
+
+    .container1{
+        height: 400px;
+    }
+    .btn{
+        width: 80%;	
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 10%;
+    }
+
+    .link1{
+        background-image: none;
+        padding: 20px 10px 10px 10px;
+        width: 80%;	
+        height: 70px;
+        margin: auto;
+        margin: 20px 10px 10px 0px;
+        margin-left: 10%;
+    }
+
+    .univ1{
+        width:100%;
+    }
+    .univ2{
+        width:100%;
+    }
+
+
+
+
+    
+}
+@media screen and (max-width: 900px){
+.announcement {
+        /* height: 2000px;*/
+       height: auto;
+    }
+    .upca{
+        width: 92%;
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 4%;
+    }
+
+    .alumni{
+        width: 92%;
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 4.4%;
+    }
+
+    .webinar{
+        width: 92%;
+        margin: auto;
+        margin: 20px 0px 0px 0px;
+        margin-left: 4%;
+    }
+
+    .footer{
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width: 622px){
+    .feature1{
+        padding: 80px 20px 0px 20px;
+    
+    }
+}
+
+
+@media screen and (max-width: 566px){
+    .feature4{
+        padding: 50px 70px 0px 50px;
+    }
+    
+    .feature4 h2{
+        font-size: 20px;
+    }
+    
+    .feature4 p{
+        font-size: 15px;
+        
+    } 
+
+    .last2 img{
+        height: 60px;
+    
+    
+    }
+}
+
+@media screen and (max-width: 480px){
+    .feature4{
+        padding: 50px 70px 0px 50px;
+    }
+    
+    .feature4 h2{
+        font-size: 27px;
+    }
+    
+    .feature4 p{
+        font-size: 13px;   
+    } 
+    .univ1 p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .univ1 td{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media screen and (max-width: 430px){
+    .feature4{
+        padding: 50px 70px 0px 50px;
+    }
+    
+    .feature4 h2{
+        font-size: 22px;
+    }
+    
+    .feature4 p{
+        font-size: 13px;
+        
+    } 
+}
+
+@media screen and (max-width: 410px){
+    .feature4{
+        padding: 50px 70px 0px 50px;
+    }
+    
+    .feature4 h2{
+        font-size: 20px;
+    }
+    
+    .feature4 p{
+        font-size: 13px;
+        
+    } 
+}
+
+
+/*********************FOR PHONE**********************/
+
+@media screen and (max-width: 400px){
+
+.heading{
+        height: 300px;
+}       
+    
+nav img{
+    width: 200px;
+}
+
+.checkbtn{
+    font-size: 20px;
+}
+
+ul{
+    height: 270px; 
+}
+
+
+nav ul li a{
+    font-size: 15px ;
+}
+
+nav ul li a:hover{
+    background: none;
+    font-size: 20px; 
+    color: #00563F;
+    -webkit-text-stroke: .3px #FFB71C;
+    text-shadow: 2px 2px #FFB71C;
+}
+
+.news h1{
+    font-size: 35px;
+}
+
+.announcement h1{
+    font-size: 25px;
+}
+
+.upca h2{
+    font-size: 20px;
+}
+.feature4{
+    padding: 20px 30px 0px 30px;
+}
+
+.feature4 h2{
+    font-size: 20px;
+}
+
+.feature4 p{
+    font-size: 14px;   
+}
+
+.features h1{
+    font-size: 30px;
+}
+
+.feature1 h2{
+    font-size: 23px;
+}
+
+.feature1 p{
+    font-size: 14px;
+}
+
+.alumni p{
+    font-size: 13.2px;
+}
+
+.webinar p{
+    font-size: 13.2px;
+}
+.last2 img{
+    height: 45px;
+}
+
+.univ1 p{
+    font-size: 13px;
+}
+.univ1 h2{
+    font-size: 22px;
+}
+
+
+.univ2 img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.univ1 td{
+    font-size: 15px;
+}
+
+
+}

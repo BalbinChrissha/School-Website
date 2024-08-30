@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>School Website Lab</title>
+    <link rel="stylesheet" href="registerStyle.css">
+    <script src="https://kit.fontawesome.com/5066b12b5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="cont1">
+        <div class="cont2">
+            <table width="100%" bgcolor="#8E1537">
+                <tr>
+                    <td class="tab1"><a href="index.html"><img src="image/picture1.png"></a></td>
+                    <td class="tab2">
+                        <h1>University of the Philippines</h1>
+                        <p>UP COLLEGE ADMISSION</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="log">
+        <center>
+            <div class="container">
+                <div class="Get"><i class="fa-solid fa-graduation-cap"></i><br />Be a UPian</div>
+                <form class="input-group" action="" onsubmit="myFunction()">
+                    <div class="may">
+                        <table class="table1">
+                            <tr>
+                                <td colspan="2" class="td1"><b>ADMISSION INFORMATION</b></td>
+                            </tr>
+                            <tr>
+                                <td class="td1">Admission Status: </td>
+                                <td class="td1"><input type="radio" name="sex" value="Male" required>FIRSTYEAR
+                                    <span class="Marg"><input type="radio" name="sex" value="Male">2ND COURSE </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td1">Campus:</td>
+                                <td class="td1"><select id="Campus" class="input-form2" name="Campus" required>
+                                        <option value="UP Diliman">UP Diliman</option>
+                                        <option value="UP Los Baños">UP Diliman</option>
+                                        <option value="UP Manila">UP Manila</option>
+                                        <option value="UP Visayas">UP Visayas</option>
+                                        <option value="UP Open University">UP Open University</option>
+                                        <option value="UP Minadanao">UP Minadanao</option>
+                                        <option value="UP Baguio">UP Baguio</option>
+                                        <option value="UP Cebu">UP Cebu</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td class="td1">Program:</td>
+                                <td class="td1"><select id="Program" class="input-form2" name="Program" required>
+                                        <option value="BS Civil Engineering">BS Civil Engineering</option>
+                                        <option value="BS Biology">BS Biology</option>
+                                        <option value="BS Computer Engineering">BS Computer Engineering</option>
+                                        <option value="BS Mathematics">BS Mathematics</option>
+                                        <option value="BS Mechanical Engineering">BS Mechanical Engineering</option>
+                                        <option value="BS Information Technology">BS Information Technology</option>
+                                        <option value="BS Electrical Engineering">BS Electrical Engineering</option>
+                                        <option value="BS Business Administration">BS Business Administration</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="20px"></b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>PERSONAL INFORMATION</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Student Name</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="Last Name" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="First Name" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="Middle Name" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Complete Address</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder="Address"
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="Province" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="City/Municipality" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="Barangay" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Phone #</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder="+63"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Mobile #</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder="+63"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Date of Birth</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="date" class="input-form1" value="2000-01-01"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Birth Place</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder=""
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Sex</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><select id="Sex" class="input-form1" name="Sex" required>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Citizenship</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" value="Filipino"
+                                        placeholder="Filipino" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Civil Status</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><select id="Civil Status" class="input-form1"
+                                        name="Civil Status" required>
+                                        <option value="Male">Single</option>
+                                        <option value="Female">Married</option>
+                                        <option value="Male">Widowed</option>
+                                        <option value="Female">Separated</option>
+                                        <option value="Male">Annulled</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Religion</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder=""
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="20px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>EDUCATIONAL INFORMATION</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Senior High School</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1"
+                                        placeholder="School Name" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>SHS Strand</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><select id="SHS STRAND" class="input-form1"
+                                        name="SHS STRAND" required>
+                                        <option value="Male">GAS</option>
+                                        <option value="Female">HUMSS</option>
+                                        <option value="Male">ABM</option>
+                                        <option value="Female">TVL</option>
+                                        <option value="Male">STEM</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Year Graduated</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder=""
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><b>Gen. Average</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1"><input type="text" class="input-form1" placeholder=""
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1">
+                                    <div class="divcheck"><input type="checkbox" class="check-box" checked required>I
+                                        hereby certify that all information stated in this application are true and
+                                        correct
+                                        and I am aware that falsification of data and multiple entries for application
+                                        in
+                                        this system may be a ground for disqualification for admission at UP.</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1" height="3px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td1">
+                                    <center><a href="#" target="_blank"><button type="submit"
+                                                class="btn1 success1">SUBMIT</button></a></center>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
+                    </div>
+                </form>
+            </div>
+        </center>
+
+        </form>
+
+    </section>
+
+    <section class="pots">
+        <hr size="5px" color="#00563F">
+        <div class="navbar-links">
+            <label class="copy"> University of the Philippines © 2022</label>
+            <ul>
+                <li><a href="https://www.facebook.com/upsystem" target="_blank"><i
+                            class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/upsystem" target="_blank"><i
+                            class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCYf9vGsRtirUa-DebvkNRBw" target="_blank"><i
+                            class="fa-brands fa-youtube-square"></i></a></li>
+                <li><a href="https://www.instagram.com/universityofthephilippines1908/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/university-of-the-philippines?pathWildcard=166683&challengeId=AQFJ8wuouhxYOQAAAYA3QfbGK6Ea2DclSBFX8Y78iciOwrrRr1lTCZ5N_3nH34zcwXuceVELluOmUjDhsTkWzs15c7-jJqxuiA&submissionId=7d9db036-2aab-e616-3a91-83827f416026"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            alert("Your application is successfully submitted. Please stand by for the Universtity's announcement");
+        }
+    </script>
+
+</body>
+
+</html>
